@@ -1,0 +1,40 @@
+# ---- Dados pessoais do jogador (nunca sobem) ----
+# Perfil, plano e histórico de treino são de cada jogador.
+# Os modelos públicos são perfil.exemplo.md e mecanicas/_modelo.md.
+/perfil.md
+/plano.md
+
+# Tudo dentro de mecanicas/, exceto o modelo.
+# Mecânicas novas criadas pelo coach ficam de fora automaticamente.
+/mecanicas/*
+!/mecanicas/_modelo.md
+
+# Prints das rodadas
+/fotos/
+
+# Mídia, replays e saídas das ferramentas, em qualquer pasta
+*.mp4
+*.mkv
+*.mov
+*.replay
+*.jsonl
+*.json
+!package.json
+*.jpg
+*.jpeg
+*.png
+sum*.txt
+raw*.txt
+
+# Downloads locais (por exemplo o rrrocket)
+/rrrocket/
+*.exe
+*.zip
+
+# Configurações locais do Claude Code
+.claude/settings.local.json
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
