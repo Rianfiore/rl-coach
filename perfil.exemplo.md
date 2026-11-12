@@ -10,7 +10,9 @@ Atualize sempre que o jogador mudar de rank ou de objetivo. O coach lê este arq
 - **Pasta de replays:** <ex.: `%USERPROFILE%\Documents\My Games\Rocket League\TAGame\Demos\`>
 
 ## Rank por modo
-| Modo | Rank atual | Pico | Atualizado em | Joga muito? |
+Rank **declarado pelo jogador**: confie nele. Se não joga ranked, escreva "não joga ranked" e use o checklist abaixo para estimar.
+
+| Modo | Rank atual | Pico | Atualizado em | Joga? |
 |---|---|---|---|---|
 | 1v1 (Duel) | | | | |
 | 2v2 (Doubles) | | | | |
@@ -18,7 +20,32 @@ Atualize sempre que o jogador mudar de rank ou de objetivo. O coach lê este arq
 
 ## Objetivo
 - <subir de rank em qual modo? mecânicas para clipes/freestyle? as duas coisas?>
-- **Tempo de treino por semana:** <horas>
+- **Alvo concreto (se houver):** <ex.: chegar a Champion II; fazer flip reset em partida>
+
+## Rotina
+- **Dias por semana:** <ex.: 3>
+- **Dias preferidos (se tiver):** <ex.: seg, qua, sex>
+- **Tempo por sessão:** <ex.: 1 h>
+- **Grava com o ControllerOverlay?** <sim/não>
+
+## Checklist de mecânicas
+✅ sei · 🟡 mais ou menos · ❌ não sei. Não precisa ser exaustivo.
+
+| Mecânica | Situação |
+|---|---|
+| Power slide / curva | |
+| Half flip | |
+| Speed flip (kickoff) | |
+| Wave dash / recoveries | |
+| Fast aerial | |
+| Saída de parede / leitura de backboard | |
+| Air roll (controle no ar) | |
+| Dribble no teto | |
+| Flick (45°, musty, classy…) | |
+| Air dribble (do chão ou da parede) | |
+| Double tap | |
+| Ceiling shot | |
+| Flip reset | |
 
 ## Controles
 | Botão | Ação |

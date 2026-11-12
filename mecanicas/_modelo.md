@@ -1,13 +1,22 @@
 # <Nome da mecânica>
 
+## Referência (antes do primeiro treino)
+- **Tutorial(is):** <link conferido no navegador> · <link 2, opcional>
+- **Receita:** <ordem dos botões e do analógico, em poucas linhas>
+- **Gabarito sem bola:** <se o jogador mandou vídeo no freeplay: tempos e analógico lidos com `tools/overlay.js`>
+
 ## Combinado
+- **Dificuldade:** <fácil / média / difícil> (define os níveis em "Metas e níveis" no CLAUDE.md)
 - **Critério de acerto:** <ex.: terminar em gol>
-- **Custom training:** <nome do pack, quantos lances, como a bola vem>
+- **Custom training:** <nome do pack, código, quantos lances, como a bola vem>
 - **Etapas da jogada:** <ex.: 1. saída da parede · 2. controle no ar · 3. finalização>
 - **Categorias do placar:** ✅ acerto · 🟡 <quase> · 🟠 <quebrou cedo>
 
+## Nível atual
+<aprendendo / funcional / consistente / domínio>. Melhor rodada: <X/20>.
+
 ## Meta atual
-<ex.: 10 de 20>
+<melhor rodada recente + 1 ou 2, sem passar do próximo nível>
 
 ## Foco da próxima rodada
 1. <correção principal>
