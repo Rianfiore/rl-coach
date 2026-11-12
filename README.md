@@ -37,13 +37,13 @@ Use **uma conversa por mecânica**.
 ## Estrutura
 | Arquivo | Versionado? | O que é |
 |---|---|---|
-| `CLAUDE.md` | ✅ | instruções do coach |
-| `tools/` | ✅ | scripts Node: `scan.js` (barra + A/B), `overlay.js` (A, B, RB, LB e analógico), `flick.js`, `boost-after-jump.js`, `replay-*.js` |
-| `perfil.exemplo.md` | ✅ | modelo do perfil do jogador |
-| `mecanicas/_modelo.md` | ✅ | modelo de cada mecânica |
-| `perfil.md` | ❌ pessoal | o seu perfil (rank, nick, pastas) |
-| `plano.md` | ❌ pessoal | histórico das sugestões de treino |
-| `mecanicas/*.md` | ❌ pessoal | o seu histórico em cada mecânica |
-| `fotos/` | ❌ pessoal | prints das rodadas |
+| `CLAUDE.md` | sim | instruções do coach |
+| `tools/` | sim | scripts Node: `scan.js` (barra + A/B), `overlay.js` (A, B, RB, LB e analógico), `flick.js`, `boost-after-jump.js`, `replay-*.js` |
+| `perfil.exemplo.md` | sim | modelo do perfil do jogador |
+| `mecanicas/_modelo.md` | sim | modelo de cada mecânica |
+| `perfil.md` | não (pessoal) | o seu perfil (rank, nick, pastas) |
+| `plano.md` | não (pessoal) | histórico das sugestões de treino |
+| `mecanicas/*.md` | não (pessoal) | o seu histórico em cada mecânica |
+| `fotos/` | não (pessoal) | prints das rodadas |
 
 O `.gitignore` usa padrões: qualquer mecânica nova, foto, vídeo ou replay fica fora do git automaticamente.

@@ -10,7 +10,7 @@
 - **Critério de acerto:** <ex.: terminar em gol>
 - **Custom training:** <nome do pack, código, quantos lances, como a bola vem>
 - **Etapas da jogada:** <ex.: 1. saída da parede · 2. controle no ar · 3. finalização>
-- **Categorias do placar:** ✅ acerto · 🟡 <quase> · 🟠 <quebrou cedo>
+- **Categorias do placar:** Acerto · Quase: <definir> · Quebrou cedo: <definir>
 
 ## Nível atual
 <aprendendo / funcional / consistente / domínio>. Melhor rodada: <X/20>.

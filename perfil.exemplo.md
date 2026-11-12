@@ -25,27 +25,15 @@ Rank **declarado pelo jogador**: confie nele. Se não joga ranked, escreva "não
 ## Rotina
 - **Dias por semana:** <ex.: 3>
 - **Dias preferidos (se tiver):** <ex.: seg, qua, sex>
-- **Tempo por sessão:** <ex.: 1 h>
+- **Horas por sessão:** <ex.: 1 h em dia de semana, 3 h no fim de semana> (~4 rodadas gravadas por hora)
 - **Grava com o ControllerOverlay?** <sim/não>
 
 ## Checklist de mecânicas
-✅ sei · 🟡 mais ou menos · ❌ não sei. Não precisa ser exaustivo.
+Use a lista do `catalogo.md`: sei · mais ou menos · não sei · ? (não perguntado).
+Anote a **fonte**: o jogador disse, rodada (`mecanicas/*.md`) ou replay.
 
-| Mecânica | Situação |
-|---|---|
-| Power slide / curva | |
-| Half flip | |
-| Speed flip (kickoff) | |
-| Wave dash / recoveries | |
-| Fast aerial | |
-| Saída de parede / leitura de backboard | |
-| Air roll (controle no ar) | |
-| Dribble no teto | |
-| Flick (45°, musty, classy…) | |
-| Air dribble (do chão ou da parede) | |
-| Double tap | |
-| Ceiling shot | |
-| Flip reset | |
+| Mecânica | Situação | Fonte |
+|---|---|---|
 
 ## Controles
 | Botão | Ação |

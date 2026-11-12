@@ -32,11 +32,12 @@ Quando não existe `perfil.md`. Copie `perfil.exemplo.md` para `perfil.md` e pre
 
 **4. Rotina**
 - **Quantos dias por semana** treina, e se possível quais.
-- Quanto tempo por sessão, mais ou menos.
+- **Quantas horas por sessão**, mais ou menos, e se varia (exemplo: "1 h em dia de semana, 3 h no fim de semana"). Isso define quantas rodadas cabem no dia.
 - Vai gravar com o ControllerOverlay? Se ainda não tem, explique como instalar com segurança (veja "Segurança").
 
 **5. Mecânicas que já sabe**
-- O checklist também serve para quem joga ranked: ele mostra o que já está pronto e o que falta. Não precisa ser exaustivo.
+- Passe o checklist do **`catalogo.md`** (sei / mais ou menos / não sei) **também para quem joga ranked**. Ele mostra o que está pronto e o que falta para o próximo rank.
+- Para encurtar, pergunte em blocos (movimento, aéreo, chão, jogo) e só as mecânicas que pesam até o rank-alvo. O que vier dos dados (rodadas, replays) você mesmo marca.
 
 Registre tudo no `perfil.md` e passe para "O que treinar".
 
@@ -49,18 +50,19 @@ Use quando o jogador perguntar "o que eu treino?", quando abrir uma sessão sem 
 **1. Defina o modo.** Pergunte (ou confirme) **para qual modo** é o treino: **1v1, 2v2 ou 3v3**. Cada modo pede coisas diferentes, e a sugestão sempre vale para um modo só. Se ele não souber, sugira o modo principal do `perfil.md`.
 
 **2. Junte os dados que já existem.** Não peça gravação nova só para planejar.
+- **`catalogo.md` × checklist do perfil:** liste as mecânicas **base** e **arma** que pesam até o **rank-alvo** no modo, marque o que o jogador tem e veja as **lacunas**. Esse é o ponto de partida do plano. Se houver "?" numa mecânica que pesa, pergunte antes.
 - **`perfil.md`:** rank declarado no modo (confie nele), objetivo, frequência e o checklist de mecânicas.
 - **`mecanicas/*.md`:** o que já foi treinado, em que nível está (veja "Metas e níveis"), se estagnou ou se foi abandonado. Esta é a **única** sessão que pode ler todos os arquivos de mecânica. Leia, mas não altere.
 - **Replays, se já existirem** na pasta de replays ou num arquivo de partidas (por exemplo `mecanicas/ranked-posicionamento.md`):
   - `tools/replay-header.js` filtra pelo `size` (1, 2 ou 3 jogadores por time);
-  - números de partida (gols sofridos fora de posição, tempo sem boost) ajudam a escolher o hábito 🧠.
+  - números de partida (gols sofridos fora de posição, tempo sem boost) ajudam a escolher o hábito de jogo.
   - Não ter replay **não trava** o plano. Use a tabela de referência e diga que é referência geral.
 - **`plano.md`:** o que foi sugerido antes e o que o jogador escolheu. Não repita do zero uma sugestão que ele já recusou sem dizer o que mudou.
 
 **3. Sugira no máximo 3 opções**, em ordem, cada uma com:
 - **O quê:** a mecânica ou o hábito de jogo.
 - **Por quê, com dado:** por exemplo "nos 3 gols sofridos você estava sem boost" ou "flick já está em 17/20, dá para avançar". Se não houver dado, diga que é pela tabela de referência.
-- **Tipo:** 🎯 *mecânica* (custom training com 20 lances, rodadas como sempre) ou 🧠 *jogo* (medido em replays de partida, como no `ranked-posicionamento.md`).
+- **Tipo:** *mecânica* (custom training com 20 lances, rodadas como sempre) ou *hábito de jogo* (medido em replays de partida, como no `ranked-posicionamento.md`).
 - **Como medir e meta inicial.**
 - **Pack sugerido:** se for mecânica, um pack do `perfil.md` ou um tipo de pack para o jogador procurar. **Não invente código de pack.**
 
@@ -72,16 +74,26 @@ Regras para escolher:
 
 **4. O jogador escolhe.** Registre no `plano.md` (sugestões, escolha e motivo) e monte o **plano por semana**:
 - **Semana N · datas reais · tema.** O número de dias por semana é a **frequência do `perfil.md`**. Distribua os dias com folga entre eles, a partir de hoje (exemplo: "Semana 1 · 12 a 18/11 · Dia 1 qui 12/11, Dia 2 sáb 14/11, Dia 3 seg 16/11").
-- **Um tema de mecânica por semana** (exemplo: semana de flicks, semana de flip reset). Não encha a mesma semana de mecânicas diferentes.
-- **Não repita** como tema a mecânica treinada nos últimos dias. Veja as datas das rodadas em `mecanicas/*.md`.
-- O hábito 🧠 de jogo vale em **todas** as semanas, nas ranked.
+- **Cubra os pilares do `catalogo.md`**: domínio de bola, movimento e momentum, boost, aéreo, flicks e freestyle, jogo. **Não monte o plano só com as mecânicas que já estão em treino.** Isso deixa o plano raso.
+- **Dia de treino em blocos:**
+  1. **Domínio de bola** (freeplay, 10 a 15 min, sem gravar);
+  2. **Movimento/aéreo** (freeplay ou mapa de workshop, 10 a 15 min);
+  3. **Bloco gravado** de pack de 20 (o foco do dia);
+  4. **Ranked** com o hábito do pilar boost/momentum.
+- **O bloco gravado roda entre os pilares** ao longo da semana (exemplo: dia A air dribble, dia B flicks, dia C first touch). Não repita o mesmo foco gravado em dias seguidos. A manutenção (mecânica já consistente) entra como 1 rodada de vez em quando.
+- O hábito de jogo vale em **todas** as semanas, nas ranked.
 - Se o jogador treinar em outro dia, siga a **ordem dos dias**, não a data.
 
 **5. Rota até o objetivo (várias semanas).** Além da semana 1, monte a **rota inteira**: Semana 1, 2, 3… até o objetivo do perfil.
-- **Ordem:** primeiro o que mais pesa no objetivo e no rank. Se o objetivo for rank, o hábito 🧠 desde a semana 1. Mecânica nova entra depois das que já estão perto do nível "consistente".
+- **Ordem:** primeiro o que mais pesa no objetivo e no rank. Se o objetivo for rank, o hábito de jogo desde a semana 1. Mecânica nova entra depois das que já estão perto do nível "consistente".
 - **Cada semana tem um marco**, por exemplo "semana 3: classy em 8/20" ou "semana 5: flip reset em partida". Marco é nível de mecânica ou hábito medido, **não rank**.
 - **Rank não tem data.** Nunca prometa "Champion II na semana 6". Diga quantas semanas a rota leva **se os marcos forem batidos no ritmo previsto**.
 - **Estime pelo ritmo real** do jogador nos `mecanicas/*.md` (exemplo: "flip reset foi de 1 para 10/20 em 2 dias"). Sem histórico, comece com folga e ajuste.
+- **A rota é por etapas, não por calendário fixo.** Cada etapa tem um marco. O **tempo do dia** (horas por sessão no `perfil.md`, ou o que o jogador disser naquele dia) decide quanto da rota anda:
+  - **Conta de rodadas:** cada rodada gravada leva ~10 a 15 min (2 min de gravação + análise + conversa). Isso dá **~4 rodadas por hora**, já com o aquecimento.
+  - **Teto da mesma mecânica:** **~6 a 8 rodadas por dia**. Depois disso o cansaço derruba o resultado (veja "Princípios de coaching"). Num dia longo, **alterne mecânicas do mesmo tema** (exemplo: classy ↔ flick do chão), com pausa de 5 min a cada hora.
+  - **Bateu o marco cedo? Avance** para o próximo marco ou para a próxima etapa no mesmo dia. Um dia de 3 h pode fechar uma etapa inteira.
+  - Pergunte no começo do dia **quanto tempo o jogador tem** e monte o dia em blocos (aquecimento → blocos de rodadas → manutenção).
 - **Só a semana 1 é detalhada** dia a dia. As outras ficam com tema + marco e são revistas **no fim de cada semana**: adianta, atrasa ou troca a ordem conforme os resultados. Registre a revisão no `plano.md`.
 
 Depois sugira abrir **uma sessão nova** para a mecânica do dia. A sessão de planejamento não treina.
@@ -236,7 +248,7 @@ Os replays ficam na pasta de replays do `perfil.md`.
 3. Encontre o **padrão que se repete** e meça com números: tempo, botão, distância e em que momento quebra.
 4. Monte **prints comentados por lance**: tira de 4 quadros nos momentos-chave, com legenda curta do que aconteceu e do que fazer. Salve em `fotos/<mecanica>/rodada-NN/` e envie ao jogador.
 5. Responda neste formato:
-   - **Placar** (✅ acerto / 🟡 quase / 🟠 quebrou cedo), com os números dos lances.
+   - **Placar** em três grupos escritos por extenso (**Acerto**, **Quase**, **Quebrou cedo**), com os números dos lances. **Não use ícones** (emojis) no placar nem nos arquivos; o jogador acha confuso.
    - **Comparação com a rodada anterior**, em tabela.
    - **O que melhorou** (sempre que houver).
    - **Onde quebra**, com números.
